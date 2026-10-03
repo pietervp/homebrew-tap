@@ -5,23 +5,23 @@ class Lintent < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/pietervp/lintent/releases/download/v0.1.3/lintent-aarch64-apple-darwin.tar.gz"
-      sha256 "3de761131b35351803e32edc495adf88da840c0815969ec1261e04b3e7445dc5"
+      url "https://github.com/pietervp/lintent/releases/download/v0.1.4/lintent-aarch64-apple-darwin.tar.gz"
+      sha256 "92f9603f030c0cce812fabcb921702508f1459b3a93dc4ad98319314ea6d1a58"
     end
     on_intel do
-      url "https://github.com/pietervp/lintent/releases/download/v0.1.3/lintent-x86_64-apple-darwin.tar.gz"
-      sha256 "0d308abdacc737e39d28ecc1cfb9f2bbb006ff0a7614f9f18e6c8ce50e3b4b7b"
+      url "https://github.com/pietervp/lintent/releases/download/v0.1.4/lintent-x86_64-apple-darwin.tar.gz"
+      sha256 "4453b293fcf17fb60154c46fefb20ea369d57a5f861912a92c4d5b659052b496"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pietervp/lintent/releases/download/v0.1.3/lintent-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1b247a011d7391fbad76ba25c3283d07b3f0e72094dfd71a60f6aecc7d1c2e76"
+      url "https://github.com/pietervp/lintent/releases/download/v0.1.4/lintent-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8ce08bc4844d3734c84b53d4df4521a8fca7a2a1541e445d75a82b2c94fd4225"
     end
     on_intel do
-      url "https://github.com/pietervp/lintent/releases/download/v0.1.3/lintent-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ffc906098f6df6a3b0c0759dfa7365ed7ac25cb46e697ecfb971f03f53ffb1d9"
+      url "https://github.com/pietervp/lintent/releases/download/v0.1.4/lintent-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d2439edc29656c041bb9543adeed2f76ef86d23b7d2615ddffad696c01619ebd"
     end
   end
 
